@@ -1,6 +1,8 @@
 ## todo-next
 
-todo-next is a regular TO-DO notes listing app aimed for testing using NextJS and Redux Toolkit for front-end.<br>It also features a simple Todo CRUD API running on an express backend and uses mongodb for storing data.
+> This repository is a mirror of [todo-next v2.0.0](https://github.com/weaponsforge/todo-next) to test for deployment to Cyclic SH.
+>
+> It aims to feel out the pro's and cons of using [Cyclic SH](https://www.cyclic.sh/) as a free-tier Heroku altenative as part of the [Heroku Alternatives](https://github.com/weaponsforge/todo-next/milestone/4) milestone.
 
 ## Installation
 
