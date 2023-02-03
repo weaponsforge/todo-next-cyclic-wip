@@ -1,0 +1,19 @@
+{
+  "name": "todo-next",
+  "version": "1.0.0",
+  "description": "todo-next is a regular TO-DO notes listing app aimed for testing using NextJS and Redux Toolkit for front-end.<br>It also features a simple Todo CRUD API running on an express backend and uses mongodb for storing data.",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd server && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weaponsforge/todo-next.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/weaponsforge/todo-next/issues"
+  },
+  "homepage": "https://github.com/weaponsforge/todo-next#readme"
+}
