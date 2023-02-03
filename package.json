@@ -4,7 +4,8 @@
   "description": "todo-next is a regular TO-DO notes listing app aimed for testing using NextJS and Redux Toolkit for front-end.<br>It also features a simple Todo CRUD API running on an express backend and uses mongodb for storing data.",
   "main": "index.js",
   "scripts": {
-    "start": "cd server && npm start"
+    "start": "cd server && npm start",
+    "build": "cd server && npm install"
   },
   "repository": {
     "type": "git",
