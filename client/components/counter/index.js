@@ -6,13 +6,14 @@ import { useSelector } from 'react-redux'
 import Box from '@mui/material/Box'
 import Typography from '@mui/material/Typography'
 import Image from 'next/image'
-import imageLoader from '@/utils/image/loader'
+// import imageLoader from '@/utils/image/loader'
 import styles from './styles'
 
 // Icons
 import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline'
 import RemoveCircleOutlineIcon from '@mui/icons-material/RemoveCircleOutline'
 import SimpleContainer from '@/layout/simplecontainer'
+import MtgRed from '../../public/images/mtg_enamel_red.png'
 
 // Layout
 import AppCard from '@/components/layout/appcard'
@@ -31,11 +32,11 @@ function Counter (props) {
 
         <Box sx={styles.divContainer}>
           <Image
-            src="images/mtg_enamel_red.png"
+            src={MtgRed}
             alt="red"
             width={80}
             height={80}
-            loader={imageLoader}
+            // loader={imageLoader}
           />
         </Box>
 

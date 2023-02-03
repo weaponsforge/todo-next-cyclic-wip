@@ -6,7 +6,8 @@ const nextConfig = {
   basePath: process.env.NEXT_PUBLIC_BASE_PATH,
   assetPrefix: process.env.NEXT_PUBLIC_BASE_PATH,
   images: {
-    loader: 'custom'
+    unoptimized: true
+    // loader: 'custom'
   },
   eslint: {
     dirs: ['components', 'pages', 'src', 'store', 'styles']
