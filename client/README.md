@@ -1,6 +1,8 @@
 ## todo-next / client
 
-This directory will contain the web user interfaces for interacting with the Todo CRUD API.
+> This repository is a mirror of [todo-next v2.0.0](https://github.com/weaponsforge/todo-next) for deployment to Cyclic SH.
+>
+> It aims to feel out the pro's and cons of using [Cyclic SH](https://www.cyclic.sh/) as a free-tier Heroku altenative as part of the [Heroku Alternatives](https://github.com/weaponsforge/todo-next/milestone/4) milestone.
 
 ## Requirements
 
